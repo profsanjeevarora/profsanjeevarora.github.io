@@ -1,0 +1,27 @@
+- Sadhika Malladi | PhD 2025
+- [Kaifeng Lyu](https://kaifeng.ac/) | PhD 2024
+- [Dingli Yu](https://dingliyu.net/) | PhD 2024
+- [Arushi Gupta](https://www.linkedin.com/) | PhD 2024
+- [Yuping Luo](https://www.yuping.me/) | PhD 2022
+- [Zhiyuan Li](https://zhiyuanli.ttic.edu/) | PhD 2022
+- [Nikunj Saunshi](https://www.nikunjsaunshi.com/) | PhD 2022
+- [Yi Zhang](https://www.yi-zhang.me/) | PhD 2021
+- [Wei Hu](https://weihu.me/) | PhD 2021
+- Orestis Plevrakis | PhD 2021
+- [Holden Lee](https://holdenlee.github.io/) | PhD 2019
+- [Yuanzhi Li](https://mbzuai.ac.ae/) | PhD 2018
+- [Mikhail Khodak](https://pages.cs.wisc.edu/) | BS'16, MSc'18
+- [Kiran Vodrahalli](https://kiranvodrahalli.github.io/) | BS'16, MSc'17
+- [Andrej Risteski](https://www.andrew.cmu.edu/) | PhD 2017
+- [Tengyu Ma](https://ai.stanford.edu/) | PhD 2017
+- [Sushant Sachdeva](https://sachdevasushant.github.io/) | PhD 2013
+- [Rong Ge](https://www.cs.duke.edu/~rongge) | PhD 2013
+- [George Karakostas](https://www.cas.mcmaster.ca/~karakos/) |
+- [Subhash Khot](https://cs.nyu.edu/~khot/) |
+- [Iannis Tourlakis](https://www.cs.toronto.edu/~iannis/) |
+- [Elad Hazan](https://www.ehazan.com/) |
+- [Satyen Kale](https://www.satyenkale.com/) |
+- [David Steurer](https://www.cs.cornell.edu/~davidst/) |
+- [Eden Chlamtac](https://oldweb.cs.bgu.ac.il/~edench/) |
+- [Rajsekar Manokaran](https://www.cse.iitm.ac.in/~rmanokar/) |
+- [Chris Beck](https://www.chrisbeck.co/) |
