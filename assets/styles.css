@@ -359,8 +359,6 @@ button:focus-visible {
 }
 
 .eyebrow,
-.section-label,
-.timeline-year,
 .contact-label,
 .footer-kicker {
   margin: 0 0 0.6rem;
@@ -411,7 +409,6 @@ h3,
 .link-card p,
 .card p,
 .list-card p,
-.timeline-text,
 .contact-value,
 #footer-note {
   margin: 0;
@@ -573,12 +570,10 @@ body[data-page="contact"] .contact-card {
 .link-grid,
 .card-grid,
 .stack-list,
-.timeline,
 .contact-grid,
 .tag-list,
 .person-list,
-.advising-list,
-.two-column-section {
+.advising-list {
   display: grid;
   gap: 1rem;
 }
@@ -589,10 +584,6 @@ body[data-page="contact"] .contact-card {
 
 .card-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.two-column-section {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .link-card,
@@ -705,23 +696,6 @@ body[data-page="contact"] .contact-card {
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 0.8rem;
-}
-
-.timeline-item {
-  display: grid;
-  grid-template-columns: 110px minmax(0, 1fr);
-  gap: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--border);
-}
-
-.timeline-item:first-child {
-  padding-top: 0;
-  border-top: 0;
-}
-
-.timeline-year {
-  margin: 0;
 }
 
 .tag-list {
@@ -998,8 +972,7 @@ body[data-page="contact"] .contact-card {
 @media (max-width: 960px) {
   .hero-split,
   .link-grid,
-  .card-grid,
-  .two-column-section {
+  .card-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1155,7 +1128,6 @@ body[data-page="contact"] .contact-card {
     padding-top: 1.5rem;
   }
 
-  .timeline-item,
   .contact-grid,
   .person-item {
     grid-template-columns: 1fr;

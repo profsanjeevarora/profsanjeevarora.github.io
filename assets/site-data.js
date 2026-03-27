@@ -40,11 +40,6 @@ window.SITE_DATA = {
       title: "Archived Courses",
       summary: "",
     },
-    honors: {
-      eyebrow: "Honors and Service",
-      title: "Honors and Service",
-      summary: "Selected awards, professional service, and academic appointments.",
-    },
     advising: {
       eyebrow: "Advising",
       title: "Advising",
@@ -84,45 +79,6 @@ window.SITE_DATA = {
         { text: "Distinguished Visiting Professor, Institute for Advanced Study, 2017-2020" },
         { text: "Visiting appointments at UC Berkeley, Microsoft Research, Weizmann Institute, Kyoto University, EPFL, ETH, and DeepMind London" },
         { text: "Founding Director, Princeton Language and Intelligence, 2023" },
-      ],
-    },
-    {
-      title: "Awards and Honors",
-      items: [
-        { text: "30-year Test of Time Award for FOCS 1993, 2023" },
-        { text: "Bell Labs Innovation Prize 2020, runner-up team" },
-        { text: "Plenary Speaker, International Congress of Mathematicians, 2018" },
-        { text: "Member, National Academy of Sciences, 2018" },
-        { text: "American Academy of Arts and Sciences, 2015" },
-        { text: "Simons Investigator, 2012-present" },
-        { text: "AMS-MOS D. R. Fulkerson Prize, 2012" },
-        { text: "ACM - Infosys Foundation Award in the Computing Sciences, 2011" },
-        { text: "Best Paper, IEEE Foundations of Computer Science, 2010" },
-        { text: "Goedel Prize, 2010 and 2001" },
-        { text: "ACM Fellow, 2009" },
-        { text: "Engineering Council Teaching Award, Princeton University, 2008" },
-        { text: "Graduate Mentoring Award, Princeton University, 2005" },
-        { text: "Best Paper, ACM Symposium on Theory of Computing, 2004" },
-        { text: "Semiplenary speaker, International Symposium on Math Programming, 2003" },
-        { text: "Distinguished Alumnus Award, UC Berkeley Computer Science, 2003" },
-        { text: "Invited speaker in Math Aspects of Computer Science session, International Congress of Mathematicians, 2002" },
-        { text: "Plenary speaker, ACM Symposium on Theory of Computing, 1998" },
-        { text: "David and Lucile Packard Foundation Fellowship, 1997-2002" },
-        { text: "Alfred P. Sloan Fellowship, 1996" },
-        { text: "NSF CAREER Award, 1995" },
-        { html: '<a href="https://awards.acm.org/doctoral-dissertation/1990s">ACM Doctoral Dissertation Award</a>, co-winner, 1995' },
-        { text: "IBM Graduate Fellowship, 1993" },
-        { text: "Ranked first in India, IIT Joint Entrance Exam, 1986" },
-      ],
-    },
-    {
-      title: "Professional Service",
-      items: [
-        { html: 'Founding director and lead PI, <a href="https://intractability.princeton.edu/">Center for Computational Intractability</a>, Princeton, 2008' },
-        { text: "SIGACT Committee for Advancement of Theoretical CS: member 2005-07, chair 2007-2010" },
-        { text: "Served on editorial boards for Computational Complexity, Theory of Computing, SIAM Journal on Discrete Mathematics, Journal of Combinatorial Optimization, and Information and Computation" },
-        { text: "Program chair for IEEE FOCS 2006 and APPROX 2003; program committee service for STOC, FOCS, and Computational Complexity" },
-        { html: 'Coauthor, with Boaz Barak, of <a href="https://theory.cs.princeton.edu/complexity/">Computational Complexity: A Modern Approach</a>' },
       ],
     },
     {
@@ -166,12 +122,6 @@ window.SITE_DATA = {
       description: "Current and archived course pages.",
       label: "View page",
       href: "./teaching.html",
-    },
-    {
-      title: "Honors and Service",
-      description: "Selected awards, professional service, and academic appointments.",
-      label: "View page",
-      href: "./honors.html",
     },
     {
       title: "Advising",
@@ -272,46 +222,6 @@ window.SITE_DATA = {
     { title: "COS 522", description: "Advanced Complexity Theory" },
     { title: "COS 594", description: "Advanced Topics: Algorithms and Complexity" },
   ],
-  honors: [
-    { year: "2023", text: "30-year Test of Time Award for FOCS 1993" },
-    { year: "2020", text: "Bell Labs Innovation Prize, runner-up team" },
-    { year: "2018", text: "Plenary Speaker, International Congress of Mathematicians" },
-    { year: "2018", text: "Elected to the National Academy of Sciences" },
-    { year: "2015", text: "Elected to the American Academy of Arts and Sciences" },
-    { year: "2012", text: "Simons Investigator" },
-    { year: "2012", text: "AMS-MOS D. R. Fulkerson Prize" },
-    { year: "2011", text: "ACM-Infosys Foundation Award in the Computing Sciences" },
-    { year: "2010", text: "Goedel Prize" },
-    { year: "2009", text: "Elected ACM Fellow" },
-    { year: "2001", text: "Goedel Prize" },
-  ],
-  service: [
-    {
-      title: "Princeton Language and Intelligence",
-      description: "Founding Director of Princeton Language and Intelligence, launched in 2023.",
-    },
-    {
-      title: "Center for Computational Intractability",
-      description: "Founding director and lead PI for Princeton’s Center for Computational Intractability.",
-    },
-    {
-      title: "Conference leadership",
-      description: "Program chair for IEEE FOCS 2006 and APPROX 2003; multiple STOC, FOCS, and CCC program committees.",
-    },
-    {
-      title: "Editorial service",
-      description:
-        "Served on editorial boards including Computational Complexity, Theory of Computing, SIAM Journal on Discrete Mathematics, and Information and Computation.",
-    },
-  ],
-  appointments: [
-    { year: "2023", text: "Founding Director, Princeton Language and Intelligence" },
-    { year: "2017-2020", text: "Distinguished Visiting Professor, Institute for Advanced Study" },
-    { year: "2011", text: "Charles C. Fitzmorris Professor, Princeton University" },
-    { year: "2003", text: "Professor, Princeton University" },
-    { year: "1999", text: "Associate Professor, Princeton University" },
-    { year: "1994", text: "Assistant Professor, Princeton University" },
-  ],
   advisingFiles: {
     currentStudents: "./content/advising/current-students.md",
     alumni: "./content/advising/alumni.md",
@@ -319,7 +229,7 @@ window.SITE_DATA = {
   profiles: [
     {
       title: "CV / Bio",
-      description: "Biography, appointments, honors, and professional background.",
+      description: "Biography, appointments, and professional background.",
       href: "./bio.html",
     },
     {

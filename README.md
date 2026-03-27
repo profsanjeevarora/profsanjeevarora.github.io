@@ -19,9 +19,6 @@ Edit the relevant sections in `assets/site-data.js`:
 - `research`
 - `teaching`
 - `archiveCourses`
-- `honors`
-- `service`
-- `appointments`
 - `contact`
 
 ### How `assets/site-data.js` is organized
@@ -33,9 +30,6 @@ Edit the relevant sections in `assets/site-data.js`:
 - `research`: the three main research cards.
 - `teaching`: the cards on `teaching.html`.
 - `archiveCourses`: the archived course list on `archived-courses.html`.
-- `honors`: the honors timeline.
-- `service`: the service cards on the honors page.
-- `appointments`: the appointments timeline on the honors page.
 - `contact`: the cards on `contact.html`.
 - `footerNote`: the copyright / design lines in the footer.
 

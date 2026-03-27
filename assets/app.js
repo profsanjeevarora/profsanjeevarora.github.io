@@ -224,25 +224,6 @@ function renderStackedList(rootId, items, withLinks = true) {
   });
 }
 
-function renderTimeline(rootId, items) {
-  const root = document.getElementById(rootId);
-  items.forEach((item) => {
-    const article = document.createElement("article");
-    article.className = "timeline-item";
-
-    const year = document.createElement("p");
-    year.className = "timeline-year";
-    year.textContent = item.year;
-
-    const text = document.createElement("p");
-    text.className = "timeline-text";
-    text.textContent = item.text;
-
-    article.append(year, text);
-    root.appendChild(article);
-  });
-}
-
 function renderPersonList(rootId, people) {
   const root = document.getElementById(rootId);
   if (!root || !people) {
@@ -455,13 +436,6 @@ function renderBioPage() {
   });
 }
 
-function renderHonorsPage() {
-  renderPageHero("honors");
-  renderTimeline("honors-timeline", siteData.honors);
-  renderStackedList("service-list", siteData.service, false);
-  renderTimeline("appointments-timeline", siteData.appointments);
-}
-
 async function renderAdvisingPage() {
   renderPageHero("advising");
 
@@ -503,7 +477,6 @@ function init() {
     research: renderResearchPage,
     teaching: renderTeachingPage,
     "archived-courses": renderArchiveCoursesPage,
-    honors: renderHonorsPage,
     advising: renderAdvisingPage,
     contact: renderContactPage,
   };
